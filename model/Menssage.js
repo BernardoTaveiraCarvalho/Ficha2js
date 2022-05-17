@@ -19,7 +19,7 @@ class Menssage {
     constructor(fullName,text){
         this.#fullName = fullName
         this.#text = text
-        setStorage(fullName,text)
+       // setStorage(fullName,text)
     }
 }
 export{Menssage}
